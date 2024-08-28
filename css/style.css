@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+    color: #0f0;
+    font-family: 'Press Start 2P', cursive; /* Fonte pixelada */
+}
+
+#game-container {
+    border: 5px solid #0f0;
+    padding: 10px;
+    background-color: #000;
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
+}
+
+canvas {
+    display: block;
+    margin: 0 auto;
+    background-color: #000;
+}
